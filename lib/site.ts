@@ -50,7 +50,7 @@ export const demos: Demo[] = [
     summary: "A marketplace for fixed-price gigs, where the payment is held until the buyer approves the work.",
     highlights: ["Payment held until the buyer approves the work", "Separate buyer, seller and admin sides", "Checkout with Stripe in test mode"],
     codeUrl: "https://github.com/bilal404up/gigboard",
-    liveUrl: "",
+    liveUrl: "https://gigboard-cyan.vercel.app",
     stack: ["Next.js", "TypeScript", "Tailwind", "Supabase", "Stripe (test mode)"],
     shots: {
       home: { src: "/work/gigboard-home.png", alt: "Gigboard home page: a black split-flap board listing gigs with seller, delivery time, price and rating.", w: 1440, h: 900 },
@@ -81,7 +81,7 @@ export const demos: Demo[] = [
     summary: "A support chatbot that only answers from a shop’s own FAQ, and says so when it doesn’t know.",
     highlights: ["Shows the FAQ entry behind every answer", "Says it doesn’t know and asks the owner instead of guessing", "Adds to any website with one line of code"],
     codeUrl: "https://github.com/bilal404up/sidekick",
-    liveUrl: "",
+    liveUrl: "https://sidekick-livid.vercel.app",
     stack: ["Next.js", "TypeScript", "Tailwind", "OpenAI API (optional)"],
     shots: {
       home: { src: "/work/sidekick-home.png", alt: "Sidekick home page: a live chat, the FAQ it answers from and the owner’s inbox, side by side.", w: 1280, h: 720 },
@@ -113,7 +113,7 @@ export const demos: Demo[] = [
     summary: "An invoice tracker for freelancers that counts the days overdue and writes reminders that get firmer the longer an invoice is late.",
     highlights: ["Counts the days and puts the oldest invoice on top", "Writes reminders that get firmer over time", "Free and Pro plans with Stripe billing in test mode"],
     codeUrl: "https://github.com/bilal404up/chaser",
-    liveUrl: "",
+    liveUrl: "https://chaser-taupe.vercel.app",
     stack: ["Next.js", "TypeScript", "Tailwind", "Stripe (test mode)"],
     shots: {
       home: { src: "/work/chaser-home.png", alt: "Chaser home page: late invoices shown as paper slips, with the days overdue in large type.", w: 1280, h: 960 },
